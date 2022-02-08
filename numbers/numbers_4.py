@@ -1,7 +1,23 @@
+# --- Números em Python - Import math | Vídeo-Aula ---
+#
+# ▶️ Canal YouTube: Automation and Data Science
+#           url: https://www.youtube.com/channel/UCOGLG_-uQco3Z7YGXtbEbEg
+#
+#       👉  video: https://youtu.be/ZcOWT7qGB98
+#
+# 💡 Dica: converta para comentário as linhas de código que não ver representada na consola.
+#          Exemplo: # print(canal)
+#
+# ✔️ Ajude o nosso canal de Educação:
+#       Partilhe, Faça like e Comente.
+#       Ajudar este canal é ajudar toda a comunidade.
+#
+# ---
+
 # 1: Como importar um módulo em Python
 import math
 
-# help('math')
+help('math')
 
 # 2: Como usar uma função e constante de um módulo
 a = 2
