@@ -3,7 +3,7 @@
 # ▶️ Canal YouTube: Automation and Data Science
 #           url: https://www.youtube.com/channel/UCOGLG_-uQco3Z7YGXtbEbEg
 #
-#       👉  video: https://youtu.be/ZcOWT7qGB98
+#       👉  video: https://youtu.be/4YyaeHyQafA
 #
 # 💡 Dica: converta para comentário as linhas de código que não ver representada na consola.
 #          Exemplo: # print(canal)
