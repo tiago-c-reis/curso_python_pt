@@ -23,19 +23,10 @@ import re
 c = '╔', '═', '╗', '║', '╎'
 comprimento = 32
 
-def posição(num, colunas):
-    x = 2 * (num // colunas)
-    y = num % colunas
 
-    print(x, y)
-    return x, y
-
-
-def desenhar(colunas:int, pos:int):
+def desenhar(colunas:int):
     # Calcular vazio (dimensão da área)
     vazio = (comprimento - 2) // colunas
-
-    x, y = posição(pos, colunas)
 
     # Primeira linha
     k = (comprimento - 2) + (colunas - 1) - (comprimento - 2) % colunas
@@ -50,11 +41,6 @@ def desenhar(colunas:int, pos:int):
         # Linhas ímpares: substituir ' ' por '.'
         if i % 2 != 0:
             linha = re.sub(' ', '.', linha)
-
-        if i == x:
-            _r = [31, 32]
-            r = f'X'
-            linha = linha[:(y + 1) * vazio] + 'X' + linha[(y + 1) * vazio + 1 :]
 
         print(linha)
 
